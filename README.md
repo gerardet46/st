@@ -1,7 +1,9 @@
 # Simple terminal (st) de gerardet46
 
-Això és la meva versió configurada de [simple terminal](https://st.suckless.org/), de suckless. Està inspirat en la configuració de 
+Aquesta és la meva versió configurada de [simple terminal](https://st.suckless.org/), de suckless. Està inspirat en la configuració de 
 [luke smith](https://github.com/lukesmithxyz/st) però s'ha creat a partir de la versió 0.8.4 oficial a suckless.org, afegint els pedaços que trobava necessaris.
+
+[ README en español ](README_es.md)
 
 ## Taula de continguts
 1. [ Filosofia ](#filo)
@@ -18,11 +20,10 @@ Això és la meva versió configurada de [simple terminal](https://st.suckless.o
 
 <a name="filo"></a>
 ## Filosofia
-Seguint un poc la filosofia de _suckless_, aquesta versió de `st` no permetrà que es pugui cnaviar la configuració amb fitxers clàssics de configuració. Per canviar-la,
+Seguint un poc la filosofia de _suckless_, aquesta versió de `st` no permetrà que es pugui canviar la configuració amb fitxers clàssics de configuració. Per canviar-la,
 s'haurà de canviar el propi codi font, que ho fa més segur i ràpid.
 
-Per això, si voleu instal·lar un altre tema, simplement editau els colors al fitxer `config.h`, que és el fitxer on es configura el terminal però no
-s'implementar
+Per això, si voleu instal·lar un altre tema, simplement editau els colors al fitxer `config.h`, que és el fitxer on es configura el terminal i llavors es compila.
 
 <a name="luke"></a>
 ## Característiques de luke smith
