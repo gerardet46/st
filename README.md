@@ -44,7 +44,7 @@ Es podem canviar a `config.h`
 Tots els pedaços es poden veure en l'arrel del respositori com a fitxers `.diff`
 - `Dracula`: tema per defecte (i l'únic instal·lat)
 - `alpha` per transparència
-- `blinking cursor` per cursor típic parpadejant
+- `blinking cursor` per cursor típic parpellejant
 - `externalpipe` per emprar `dmenu` adins `st`
 - `scrollback` per desplaçament vertical
 - Utilitza la font **Ubuntu Mono** per defecte
