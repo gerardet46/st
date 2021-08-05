@@ -42,11 +42,12 @@ Es podem canviar a `config.h`
 <a name="draps"></a>
 ## Pedaços i temes
 Tots els pedaços es poden veure en l'arrel del respositori com a fitxers `.diff`
-- `Dracula`: tema per defecte (i l'únic instal·lat)
+- `Dracula`: tema per defecte (un poc modificat i l'únic instal·lat)
 - `alpha` per transparència
 - `blinking cursor` per cursor típic parpellejant
 - `externalpipe` per emprar `dmenu` adins `st`
 - `scrollback` per desplaçament vertical
+- `newterm` per obrir un terminal en el mateix directori amb `C-S-Enter`
 - Utilitza la font **Ubuntu Mono** per defecte
 
 <a name="emoji"></a>

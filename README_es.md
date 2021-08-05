@@ -43,11 +43,12 @@ Se pueden cambiar en `config.h`
 <a name="draps"></a>
 ## Parches y temas
 Todos los parches se pueden ver en la raíz del respositori como ficheros `.diff`
-- `Dracula`: tema por defecto (y el único instalado)
+- `Dracula`: tema por defecto (un poco modificado y el único instalado)
 - `alpha` por transparencia
 - `blinking cursor` por cursor típico parpadejant
 - `externalpipe` para emplear `dmenu` dentro de `st`
 - `scrollback` por desplazamiento vertical
+- `newterm` para abrir un nuevo terminal con `C-S-Enter`
 - Utiliza la fuente **Ubuntu Mono** por defecto
 
 <a name="emoji"></a>
