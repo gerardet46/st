@@ -6,6 +6,10 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Ubuntu Mono:pixelsize=20:antialias=true:autohint=true";
+static char *font2[] = {
+	"Noto Color emoji:pixelsize=15:antialias=true:autohint=true",
+	"icons\\-in\\-terminal:pixelsize=10:antialias=true:autohint=true",
+};
 static int borderpx = 2;
 
 /*
