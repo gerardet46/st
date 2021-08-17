@@ -44,6 +44,7 @@ Es podem canviar a `config.h`
 Tots els pedaços es poden veure en l'arrel del respositori com a fitxers `.diff`
 - `Dracula`: tema per defecte (un poc modificat i l'únic instal·lat)
 - `alpha` per transparència
+- `font2` per als emojis
 - `blinking cursor` per cursor típic parpellejant
 - `externalpipe` per emprar `dmenu` adins `st`
 - `scrollback` per desplaçament vertical

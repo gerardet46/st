@@ -45,6 +45,7 @@ Se pueden cambiar en `config.h`
 Todos los parches se pueden ver en la raíz del respositori como ficheros `.diff`
 - `Dracula`: tema por defecto (un poco modificado y el único instalado)
 - `alpha` por transparencia
+- `font2` para los emojis
 - `blinking cursor` por cursor típico parpadejant
 - `externalpipe` para emplear `dmenu` dentro de `st`
 - `scrollback` por desplazamiento vertical
