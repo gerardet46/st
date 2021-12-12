@@ -42,7 +42,7 @@ Es podem canviar a `config.h`
 <a name="draps"></a>
 ## Pedaços i temes
 Tots els pedaços es poden veure en l'arrel del respositori com a fitxers `.diff`
-- `Dracula`: tema per defecte (un poc modificat i l'únic instal·lat)
+- `gcolors` per manejar els temes (veure el meu repositori)
 - `alpha` per transparència
 - `font2` per als emojis
 - `blinking cursor` per cursor típic parpellejant
