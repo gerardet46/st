@@ -98,8 +98,12 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 0.85;
 
+#include <gcolors.h>
+//#define DRACULA
+
+#ifdef DRACULA
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 /* 8 normal colors */
@@ -126,9 +130,37 @@ static const char *colorname[] = {
  
    /* special colors */
    //[256] = "#282a36", /* background */
-   [256] = "#21262b", /* background */
+   [256] = "#161b20", /* background */
    [257] = "#d8d8d2", /* foreground */
 };
+#else
+static const char *colorname[] = {
+	"#3b4252", /* black   */
+	"#bf616a", /* red     */
+	"#a3be8c", /* green   */
+	"#ebcb8b", /* yellow  */
+	"#81a1c1", /* blue    */
+	"#b48ead", /* magenta */
+	"#88c0d0", /* cyan    */
+	"#e5e9f0", /* white   */
+ 
+ 	/* 8 bright colors */
+	"#6c768a", /* black   */
+	"#bf616a", /* red     */
+	"#a3be8c", /* green   */
+	"#ebcb8b", /* yellow  */
+	"#81a1c1", /* blue    */
+	"#b48ead", /* magenta */
+	"#8fbcbb", /* cyan    */
+	"#eceff4", /* white   */
+ 
+ 	[255] = 0,
+ 
+ 	/* more colors can be added after 255 to use with DefaultXX */
+	[256] = "#1a1f2a", /* background */
+	[257] = "#d8dee9", /* foreground */
+};
+#endif
 
 
 /*
@@ -138,7 +170,7 @@ static const char *colorname[] = {
 unsigned int defaultfg = 257;
 unsigned int defaultbg = 256;
 static unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 257;
+static unsigned int defaultrcs = 256;
 
 unsigned int defaultitalic = 7;
 unsigned int defaultunderline = 7;
