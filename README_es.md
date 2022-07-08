@@ -1,4 +1,4 @@
-# Simple terminal (st) de gerardet46
+# Simple terminal (st) de gerardet45
 
 Esta es mi versión configurada de [simple terminal](https://st.suckless.org/), de suckless. Está inspirado en la configuración de [luke
 smith](https://github.com/lukesmithxyz/st) pero se ha creado a partir de la versión 0.8.4 oficial a suckless.org, añadiendo los parches que encontraba necesarios.
@@ -28,9 +28,10 @@ hacer realidad los cambios.
 
 <a name="luke"></a>
 ## Características de luke smith
-- *Seguir enlaces* presionando `alt-l`
-- *Copiar enlaces* presionando `alt-y`
-- *Copiar salida de las órdenes* con `alt-o`
+- **Seguir enlaces** presionando `alt-l`
+- **Copiar enlaces** presionando `alt-y`
+- **Copiar salida de las órdenes** con `alt-o`
+- **Editar texto del terminal en el editor** con `alt-e`
 
 <a name="tecles"></a>
 ## Atajos de teclado añadidas
