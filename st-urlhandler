@@ -12,9 +12,9 @@ urls="$(sed 's/.*│//g' | tr -d '\n' | # First remove linebreaks and mutt sideb
 
 while getopts "hoc" o; do case "${o}" in
 	h) printf "Arguments opcionals:\\n  -c: copiar\\n  -o: xdg-open\\n  -h: Mostra aquest missatge\\n" && exit 1 ;;
-	o) chosen="$(echo "$urls" | dmenu -i -p 'Segueix enllaç' -l 10 -fn "Cantarell-13" -nf '#bd93f9' -sb '#bd93f9' -sf '#222')"
+	o) chosen="$(echo "$urls" | dmenu -i -p 'Segueix enllaç' -l 10)"
 	setsid xdg-open "$chosen" >/dev/null 2>&1 & ;;
-	c) echo "$urls" | dmenu -i -p 'Copiar enllaç' -l 10 -fn "Cantarell-13" -nf '#bd93f9' -sb '#bd93f9' -sf '#222' | tr -d '\n' | xclip -selection clipboard ;;
+	c) echo "$urls" | dmenu -i -p 'Copiar enllaç' -l 10 | tr -d '\n' | xclip -selection clipboard ;;
 	*) printf "Opció invàlida: -%s\\n" "$OPTARG" && exit 1 ;;
 esac done
 

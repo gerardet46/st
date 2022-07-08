@@ -30,6 +30,7 @@ Per això, si voleu instal·lar un altre tema, simplement editau els colors al f
 - **Seguir enllaços** pressionant `alt-l`
 - **Copiar enllaços** pressionant `alt-y`
 - **Copiar sortida de les ordres** amb `alt-o`
+- **Editar text del terminal** amb `alt-e`
 
 <a name="tecles"></a>
 ## Dreceres de teclat afegides
