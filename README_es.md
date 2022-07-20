@@ -1,4 +1,4 @@
-# Simple terminal (st) de gerardet45
+# Simple terminal (st) de gerardet46
 
 Esta es mi versión configurada de [simple terminal](https://st.suckless.org/), de suckless. Está inspirado en la configuración de [luke
 smith](https://github.com/lukesmithxyz/st) pero se ha creado a partir de la versión 0.8.4 oficial a suckless.org, añadiendo los parches que encontraba necesarios.
