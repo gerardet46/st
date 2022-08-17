@@ -25,6 +25,8 @@ s'haurà de canviar el propi codi font, que ho fa més segur i ràpid.
 
 Per això, si voleu instal·lar un altre tema, simplement editau els colors al fitxer `config.h`, que és el fitxer on es configura el terminal i llavors es compila.
 
+També es pot canviar el fitxer `~/.Xresources` emprant la classe `St` (veure `config.h`) per canviar l'estètica del terminal.
+
 <a name="luke"></a>
 ## Característiques de luke smith
 - **Seguir enllaços** pressionant `alt-l`
@@ -43,7 +45,7 @@ Es podem canviar a `config.h`
 <a name="draps"></a>
 ## Pedaços i temes
 Tots els pedaços es poden veure en l'arrel del respositori com a fitxers `.diff`
-- `gcolors` per manejar els temes (veure el meu repositori)
+- `xresources` per configurar l'estètica amb `~/.Xresources`
 - `alpha` per transparència
 - `font2` per als emojis
 - `blinking cursor` per cursor típic parpellejant

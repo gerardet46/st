@@ -26,6 +26,8 @@ se tendrá que cambiar y compilar el propio código fuente, que lo hace más seg
 Por eso, si queréis instalar otro tema, por ejemplo, simplemente editáis los colores en el fichero `config.h`, que es el fichero donde se configura el terminal y compiláis para
 hacer realidad los cambios.
 
+También se puede cambiar el archivo `~/.Xresources`, usando la clase `St` (ver `config.h`) para cambiar la estética del terminal
+
 <a name="luke"></a>
 ## Características de luke smith
 - **Seguir enlaces** presionando `alt-l`
@@ -44,7 +46,7 @@ Se pueden cambiar en `config.h`
 <a name="draps"></a>
 ## Parches y temas
 Todos los parches se pueden ver en la raíz del respositori como ficheros `.diff`
-- `Dracula`: tema por defecto (un poco modificado y el único instalado)
+- `xresources` para configurar la estética `~/.Xresources`
 - `alpha` por transparencia
 - `font2` para los emojis
 - `blinking cursor` por cursor típico parpadejant
