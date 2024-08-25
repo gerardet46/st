@@ -17,7 +17,6 @@ Aquesta és la meva versió configurada de [simple terminal](https://st.suckless
 3. [ Nota pels emoji ](#emoji)
 4. [ Instal·lació i configuració ](#make)
 
-<a name="filo"></a>
 ## Filosofia
 
 Seguint un poc la filosofia de _suckless_, aquesta versió de `st` no permetrà que es pugui canviar la configuració amb fitxers clàssics de configuració. Per canviar-la,
@@ -27,7 +26,6 @@ Per això, si voleu instal·lar un altre tema, simplement editau els colors al f
 
 També es pot canviar el fitxer `~/.Xresources` emprant la classe `St` (veure `config.h`) per canviar l'estètica del terminal.
 
-<a name="luke"></a>
 ## Característiques de luke smith
 
 - **Seguir enllaços** pressionant `alt-l`
@@ -35,16 +33,13 @@ També es pot canviar el fitxer `~/.Xresources` emprant la classe `St` (veure `c
 - **Copiar sortida de les ordres** amb `alt-o`
 - **Editar text del terminal** amb `alt-e`
 
-<a name="tecles"></a>
 ## Dreceres de teclat afegides
 
 Es podem canviar a `config.h`
 - Desplaçament _ràpid_ amb `shift-Re/Av pàg`
 - Desplaçament _gradual_ amb `alt-↑/↓`
 - Zoom (fer més gran la font): `ctrl-+/-`
-- s'ha afegit el bon funcionament de la tecla `Supr`, adaptat ara pels teclats `es` com el meu
 
-<a name="draps"></a>
 ## Pedaços i temes
 
 Tots els pedaços es poden veure en l'arrel del respositori com a fitxers `.diff`
@@ -57,14 +52,12 @@ Tots els pedaços es poden veure en l'arrel del respositori com a fitxers `.diff
 - `newterm` per obrir un terminal en el mateix directori amb `C-S-Enter`
 - Utilitza la font **Ubuntu Mono** per defecte
 
-<a name="emoji"></a>
 ## Nota pels emojis
 
 El programari pot sortir inesperadament al inserir emojis. Per això és recomanable fer el següent:
 - Instal·lar una font d'emojis (`noto-fonts-emoji` a l'AUR, per exemple)
 - Tenir instal·lat `libxft-bgra` (és disponible a l'AUR, suprimir `libxft` en cas de conflictes)
 
-<a name="make"></a>
 ## Instal·lació i configuració
 
 Es pot instalar clonant el repositori i compilant el codi font:
