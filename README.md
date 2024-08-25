@@ -3,8 +3,6 @@
 Aquesta és la meva versió configurada de [simple terminal](https://st.suckless.org/), de suckless. Està inspirat en la configuració de 
 [luke smith](https://github.com/lukesmithxyz/st) però s'ha creat a partir de la versió 0.8.4 oficial a suckless.org, afegint els pedaços que trobava necessaris.
 
-[ README en español ](README_es.md)
-
 ## Taula de continguts
 1. [ Filosofia ](#filo)
 2. Característiques
