@@ -4,6 +4,7 @@ Aquesta és la meva versió configurada de [simple terminal](https://st.suckless
 [luke smith](https://github.com/lukesmithxyz/st) però s'ha creat a partir de la versió 0.8.4 oficial a suckless.org, afegint els pedaços que trobava necessaris.
 
 ## Taula de continguts
+
 1. [ Filosofia ](#filo)
 2. Característiques
 
@@ -18,6 +19,7 @@ Aquesta és la meva versió configurada de [simple terminal](https://st.suckless
 
 <a name="filo"></a>
 ## Filosofia
+
 Seguint un poc la filosofia de _suckless_, aquesta versió de `st` no permetrà que es pugui canviar la configuració amb fitxers clàssics de configuració. Per canviar-la,
 s'haurà de canviar el propi codi font, que ho fa més segur i ràpid.
 
@@ -27,6 +29,7 @@ També es pot canviar el fitxer `~/.Xresources` emprant la classe `St` (veure `c
 
 <a name="luke"></a>
 ## Característiques de luke smith
+
 - **Seguir enllaços** pressionant `alt-l`
 - **Copiar enllaços** pressionant `alt-y`
 - **Copiar sortida de les ordres** amb `alt-o`
@@ -34,6 +37,7 @@ També es pot canviar el fitxer `~/.Xresources` emprant la classe `St` (veure `c
 
 <a name="tecles"></a>
 ## Dreceres de teclat afegides
+
 Es podem canviar a `config.h`
 - Desplaçament _ràpid_ amb `shift-Re/Av pàg`
 - Desplaçament _gradual_ amb `alt-↑/↓`
@@ -42,6 +46,7 @@ Es podem canviar a `config.h`
 
 <a name="draps"></a>
 ## Pedaços i temes
+
 Tots els pedaços es poden veure en l'arrel del respositori com a fitxers `.diff`
 - `xresources` per configurar l'estètica amb `~/.Xresources`
 - `alpha` per transparència
@@ -54,12 +59,14 @@ Tots els pedaços es poden veure en l'arrel del respositori com a fitxers `.diff
 
 <a name="emoji"></a>
 ## Nota pels emojis
+
 El programari pot sortir inesperadament al inserir emojis. Per això és recomanable fer el següent:
 - Instal·lar una font d'emojis (`noto-fonts-emoji` a l'AUR, per exemple)
 - Tenir instal·lat `libxft-bgra` (és disponible a l'AUR, suprimir `libxft` en cas de conflictes)
 
 <a name="make"></a>
 ## Instal·lació i configuració
+
 Es pot instalar clonant el repositori i compilant el codi font:
 ```bash
 git clone https://github.com/gerardet46/st
